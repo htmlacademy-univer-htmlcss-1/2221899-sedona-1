@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Максим Егоров](https://up.htmlacademy.ru/univer-html1/1/user/2221899).
-* Наставник: `Алексей Самохвалов`.(https://htmlacademy.ru/profile/id1443429)
+* Наставник: `Алeксей Самохвалов`.(https://htmlacademy.ru/profile/id1443429)
 
 ---
 
