@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Максим Егоров](https://up.htmlacademy.ru/univer-html1/1/user/2221899).
-* Наставник: `Aлексей Самохвалов`.(https://htmlacademy.ru/profile/id1443429)
+* Наставник: `Алeксей Самохвалов`.(https://htmlacademy.ru/profile/id1443429)
 
 ---
 
@@ -38,6 +38,6 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 ---
 
-<a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github-2.png"></a>
+<a href="https://htmlacademy.ru/intensive/htmlcss"><img width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github-2.png"></a>
 
 Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS. Профессиональная вёрстка сайтов](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
