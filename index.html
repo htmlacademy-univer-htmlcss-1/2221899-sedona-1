@@ -1,12 +1,132 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <title>Project "Sedona"</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+<body>
+    <header class="page-header">
+        <img class="logo" src="images/Logo.svg" width="139" height="70" alt="Логотип Sedona">
+        <nav class="navigation">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="navigation-link" href="Sedona.html">Главная</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#">О Седоне</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="Sedona-catalog.html">Гостиницы</a>
+                </li>
+            </ul>
+            <ul class="navigation-list-user">
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#">
+                        <img src="images/search.svg" width="19px" height="19px" alt="Поиск">
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <a class="navigation-link" href="#">
+                        <img src="images/Избранное.svg" width="45" height="66" alt="Избранное">
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <button class="navigation-button" href="#">ХОЧУ СЮДА!</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-  </body>
+    <main class="main-index">
+        <section class="welcoming">
+            <img src="images/welcome.svg" width="458" height="352" style="padding-top: 48px;" alt="Welcome to Sedona">
+        </section>
+        <section class="description">
+            <h2 class="description-preview">СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h2>
+            <p class="description-info">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+        </section>
+        <ul class="benefits-list">
+            <li class="benefits-atribute N1">
+                <h3 class="benefits-atribute-caption">НАСТОЯЩИЙ ГОРОДОК</h3>
+                <p class="benefits-atribute-number">- №1 -</p>
+                <p class="benefits-atribute-description">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+            </li>
+            <li class="benefits-picture N2">
+                <img class="benefits-img" src="images/photo-1.jpg" height="384" width="800" alt="Город Седона">
+            </li>
+            <li class="benefits-atribute N3">
+                <img class="benefits-atribute-picture" src="images/Advantage-icon.svg" width="77" height="72" alt="Дом">
+                <h3 class="benefits-atribute-caption">ЖИЛЬЁ</h3>
+                <p class="benefits-atribute-description">Рекомендуем пожить в настоящем мотел, всё как в кино!</p>
+            </li>
+            <li class="benefits-atribute N4">
+                <img class="benefits-atribute-picture" src="images/Advantage-icon (1).svg" width="76" height="72" alt="Бургер">
+                <h3 class="benefits-atribute-caption">ЕДА</h3>
+                <p class="benefits-atribute-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            </li>
+            <li class="benefits-atribute N5">
+                <img class="benefits-atribute-picture" src="images/Advantage-icon (2).svg" width="76" height="76" alt="Подарок">
+                <h3 class="benefits-atribute-caption">СУВЕНИРЫ</h3>
+                <p class="benefits-atribute-description">Не только китайского, но и настоящего собственного производства!</p>
+            </li>
+            <li class="benefits-picture N6">
+                <img class="benefits-img" src="images/photo-2.jpg" height="384" width="800" alt="Мост дьявола">
+            </li>
+            <li class="benefits-atribute N7">
+                <h3 class="benefits-atribute-caption">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
+                <p class="benefits-atribute-number">- №2 -</p>
+                <p class="benefits-atribute-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            </li>
+            <li class="benefits-atribute N8">
+                <h3 class="benefits-atribute-caption">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+                <p class="benefits-atribute-number">- №3 -</p>
+                <p class="benefits-atribute-description">Все достопримечательности находятся очень близко</p>
+            </li>
+            <li class="benefits-atribute N9">
+                <h3 class="benefits-atribute-caption">КРАСИВАЯ ДОРОГА</h3>
+                <p class="benefits-atribute-number">- №4 -</p>
+                <p class="benefits-atribute-description">Ехать в Сеодну из Лас-Вегас совсем не скучно!</p>
+            </li>
+            <li class="benefits-atribute N10">
+                <h3 class="benefits-atribute-caption">МАЛО ТУРИСТОВ</h3>
+                <p class="benefits-atribute-number">- №5 -</p>
+                <p class="benefits-atribute-description">Большинство едет в Гранд-Каньон и толпится там</p>
+            </li>
+        </ul>
+        <div class="lower-box">
+            <h2 class="lower">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+            <p class="lower-description">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <button class="searching-button">Поиск гостиницы в Седоне</button>
+        </div>
+        <div class="mailing-box">
+            <h2 class="mailing-list">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
+            <p class="mailing-list-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+            <input class="email-input" type="text" placeholder="Ваш e-mail">
+            <button class="email-input-send" type="button">ПОДПИСАТЬСЯ</button>
+        </div>
+    </main>
+
+    <footer class="footer-page">
+        <ul class="contacts-list">
+            <li class="contacts-item">
+                <a class="contacts-link" href="#">
+                    <img src="images/social-facebook.svg" width="48" height="40" alt="VK"> 
+                </a>
+            </li>
+            <li class="contacts-item">
+                <a class="contacts-link" href="#">
+                    <img src="images/social-twitter.svg" width="48" height="40" alt="Twitter"> 
+                </a>
+            </li>
+            <li class="contacts-item">
+                <a class="contacts-link" href="#">
+                    <img src="images/social-youtube.svg" width="48" height="40" alt="YouTube"> 
+                </a>
+            </li>
+        </ul>
+        <span class="contacts-number">+7 (812) 812-12-12</h3>
+    </footer>
+</body>
 </html>
